@@ -11,6 +11,8 @@
 		50545F9E25E6E1250009C395 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50545F9D25E6E1250009C395 /* ContentView.swift */; };
 		50545FA025E6E12A0009C395 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50545F9F25E6E12A0009C395 /* Assets.xcassets */; };
 		50545FA325E6E12A0009C395 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50545FA225E6E12A0009C395 /* Preview Assets.xcassets */; };
+		50545FAB25E6E1DE0009C395 /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50545FAA25E6E1DE0009C395 /* CameraController.swift */; };
+		50545FAD25E6E1FA0009C395 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50545FAC25E6E1F90009C395 /* CameraViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		50545F9F25E6E12A0009C395 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		50545FA225E6E12A0009C395 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		50545FA425E6E12A0009C395 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50545FAA25E6E1DE0009C395 /* CameraController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
+		50545FAC25E6E1F90009C395 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				50545F9B25E6E1250009C395 /* CameraWithControllerApp.swift */,
 				50545F9D25E6E1250009C395 /* ContentView.swift */,
+				50545FAA25E6E1DE0009C395 /* CameraController.swift */,
+				50545FAC25E6E1F90009C395 /* CameraViewController.swift */,
 				50545F9F25E6E12A0009C395 /* Assets.xcassets */,
 				50545FA425E6E12A0009C395 /* Info.plist */,
 				50545FA125E6E12A0009C395 /* Preview Content */,
@@ -138,6 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50545FAB25E6E1DE0009C395 /* CameraController.swift in Sources */,
+				50545FAD25E6E1FA0009C395 /* CameraViewController.swift in Sources */,
 				50545F9E25E6E1250009C395 /* ContentView.swift in Sources */,
 				50545F9C25E6E1250009C395 /* CameraWithControllerApp.swift in Sources */,
 			);
